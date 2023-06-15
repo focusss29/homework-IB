@@ -1,24 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="interface_builder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpd-us-6QD">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SS6-CT-d2o">
+                                        <rect key="frame" x="136.66666666666666" y="140" width="119.99999999999997" height="120"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="R0u-CI-QfT"/>
+                                            <constraint firstAttribute="width" constant="120" id="Z7B-8y-CUb"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="60"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstItem="SS6-CT-d2o" firstAttribute="centerY" secondItem="dpd-us-6QD" secondAttribute="centerY" constant="50" id="Vkc-ei-3P7"/>
+                                    <constraint firstAttribute="height" constant="300" id="XMF-Lt-w5l"/>
+                                    <constraint firstItem="SS6-CT-d2o" firstAttribute="centerX" secondItem="dpd-us-6QD" secondAttribute="centerX" id="pID-dR-Ty0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.maskedCorners" value="[.layerMaxXMinYCorner]"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bc9-Zb-Jlv">
+                                <rect key="frame" x="25" y="371.33333333333331" width="70" height="67.333333333333314"/>
+                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="ULX-lA-BI6"/>
+                                    <constraint firstAttribute="width" constant="70" id="kcO-zu-c6M"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Литература — это самый приятный способ игнорировать жизнь." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fca-Wa-jJR">
+                                <rect key="frame" x="105" y="388" width="263" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2J-Le-5Oq">
+                                <rect key="frame" x="25" y="465" width="343" height="268.66666666666674"/>
+                                <mutableString key="text">"Литература — это волшебное убежище, где мы можем отстраниться от суеты и проблем повседневной жизни. Она приглашает нас в параллельные миры, где можно погрузиться в приключения и романтику, забыв о реальности. Книги позволяют нам скользить по страницам, словно по магическому ковру, и наслаждаться прекрасными историями, созданными умами талантливых авторов. В этом пространстве мы можем познать героев, их страсти и стремления, воспроизвести их радости и печали, не покидая уютное кресло. Литература — это близкий друг, который позволяет нам временно уйти от реальности и насладиться миром фантазии."</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWc-b3-55H">
+                                <rect key="frame" x="25" y="748.66666666666663" width="343" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Читать"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D2J-Le-5Oq" firstAttribute="top" secondItem="bc9-Zb-Jlv" secondAttribute="bottom" constant="25" id="13R-HU-Efy"/>
+                            <constraint firstItem="bc9-Zb-Jlv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="2qh-jF-u9c"/>
+                            <constraint firstItem="Fca-Wa-jJR" firstAttribute="top" secondItem="dpd-us-6QD" secondAttribute="bottom" constant="88" id="5TD-hA-bYC"/>
+                            <constraint firstItem="Fca-Wa-jJR" firstAttribute="leading" secondItem="bc9-Zb-Jlv" secondAttribute="trailing" constant="10" id="EOY-sX-ucY"/>
+                            <constraint firstAttribute="trailing" secondItem="Fca-Wa-jJR" secondAttribute="trailing" constant="25" id="P8C-Io-IdA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YWc-b3-55H" secondAttribute="trailing" constant="25" id="PB4-20-EB2"/>
+                            <constraint firstAttribute="trailing" secondItem="D2J-Le-5Oq" secondAttribute="trailing" constant="25" id="SgU-H5-ydR"/>
+                            <constraint firstItem="dpd-us-6QD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UOn-QF-hWd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dpd-us-6QD" secondAttribute="trailing" id="a4Z-Ra-l0F"/>
+                            <constraint firstItem="D2J-Le-5Oq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="c9p-dj-jhE"/>
+                            <constraint firstItem="dpd-us-6QD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="l1e-n1-gjj"/>
+                            <constraint firstItem="bc9-Zb-Jlv" firstAttribute="top" secondItem="dpd-us-6QD" secondAttribute="bottom" constant="70" id="qC8-CP-9Z8"/>
+                            <constraint firstItem="YWc-b3-55H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="unv-E4-1AE"/>
+                            <constraint firstItem="YWc-b3-55H" firstAttribute="top" secondItem="D2J-Le-5Oq" secondAttribute="bottom" constant="15" id="yUy-Ge-3M9"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

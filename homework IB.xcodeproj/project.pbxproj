@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		775AA4372A3A027100996384 /* interface builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "interface builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775AA4372A3A027100996384 /* homework IB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework IB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		775AA43A2A3A027100996384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		775AA43C2A3A027100996384 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		775AA43E2A3A027100996384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 		775AA4462A3A027200996384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775AA4492A3A027200996384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775AA44B2A3A027200996384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		775AA4502A3A027200996384 /* interface builderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "interface builderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775AA4502A3A027200996384 /* homework IBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "homework IBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		775AA4542A3A027200996384 /* interface_builderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interface_builderTests.swift; sourceTree = "<group>"; };
-		775AA45A2A3A027200996384 /* interface builderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "interface builderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775AA45A2A3A027200996384 /* homework IBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "homework IBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		775AA45E2A3A027200996384 /* interface_builderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interface_builderUITests.swift; sourceTree = "<group>"; };
 		775AA4602A3A027200996384 /* interface_builderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interface_builderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		775AA4382A3A027100996384 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				775AA4372A3A027100996384 /* interface builder.app */,
-				775AA4502A3A027200996384 /* interface builderTests.xctest */,
-				775AA45A2A3A027200996384 /* interface builderUITests.xctest */,
+				775AA4372A3A027100996384 /* homework IB.app */,
+				775AA4502A3A027200996384 /* homework IBTests.xctest */,
+				775AA45A2A3A027200996384 /* homework IBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		775AA4362A3A027100996384 /* interface builder */ = {
+		775AA4362A3A027100996384 /* homework IB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 775AA4642A3A027200996384 /* Build configuration list for PBXNativeTarget "interface builder" */;
+			buildConfigurationList = 775AA4642A3A027200996384 /* Build configuration list for PBXNativeTarget "homework IB" */;
 			buildPhases = (
 				775AA4332A3A027100996384 /* Sources */,
 				775AA4342A3A027100996384 /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = "interface builder";
+			name = "homework IB";
 			productName = "interface builder";
-			productReference = 775AA4372A3A027100996384 /* interface builder.app */;
+			productReference = 775AA4372A3A027100996384 /* homework IB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		775AA44F2A3A027200996384 /* interface builderTests */ = {
+		775AA44F2A3A027200996384 /* homework IBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 775AA4672A3A027200996384 /* Build configuration list for PBXNativeTarget "interface builderTests" */;
+			buildConfigurationList = 775AA4672A3A027200996384 /* Build configuration list for PBXNativeTarget "homework IBTests" */;
 			buildPhases = (
 				775AA44C2A3A027200996384 /* Sources */,
 				775AA44D2A3A027200996384 /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				775AA4522A3A027200996384 /* PBXTargetDependency */,
 			);
-			name = "interface builderTests";
+			name = "homework IBTests";
 			productName = "interface builderTests";
-			productReference = 775AA4502A3A027200996384 /* interface builderTests.xctest */;
+			productReference = 775AA4502A3A027200996384 /* homework IBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		775AA4592A3A027200996384 /* interface builderUITests */ = {
+		775AA4592A3A027200996384 /* homework IBUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 775AA46A2A3A027200996384 /* Build configuration list for PBXNativeTarget "interface builderUITests" */;
+			buildConfigurationList = 775AA46A2A3A027200996384 /* Build configuration list for PBXNativeTarget "homework IBUITests" */;
 			buildPhases = (
 				775AA4562A3A027200996384 /* Sources */,
 				775AA4572A3A027200996384 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				775AA45C2A3A027200996384 /* PBXTargetDependency */,
 			);
-			name = "interface builderUITests";
+			name = "homework IBUITests";
 			productName = "interface builderUITests";
-			productReference = 775AA45A2A3A027200996384 /* interface builderUITests.xctest */;
+			productReference = 775AA45A2A3A027200996384 /* homework IBUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 775AA4322A3A027100996384 /* Build configuration list for PBXProject "interface builder" */;
+			buildConfigurationList = 775AA4322A3A027100996384 /* Build configuration list for PBXProject "homework IB" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				775AA4362A3A027100996384 /* interface builder */,
-				775AA44F2A3A027200996384 /* interface builderTests */,
-				775AA4592A3A027200996384 /* interface builderUITests */,
+				775AA4362A3A027100996384 /* homework IB */,
+				775AA44F2A3A027200996384 /* homework IBTests */,
+				775AA4592A3A027200996384 /* homework IBUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		775AA4522A3A027200996384 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 775AA4362A3A027100996384 /* interface builder */;
+			target = 775AA4362A3A027100996384 /* homework IB */;
 			targetProxy = 775AA4512A3A027200996384 /* PBXContainerItemProxy */;
 		};
 		775AA45C2A3A027200996384 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 775AA4362A3A027100996384 /* interface builder */;
+			target = 775AA4362A3A027100996384 /* homework IB */;
 			targetProxy = 775AA45B2A3A027200996384 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/interface builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/interface builder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homework IB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/homework IB";
 			};
 			name = Debug;
 		};
@@ -522,7 +522,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/interface builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/interface builder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homework IB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/homework IB";
 			};
 			name = Release;
 		};
@@ -563,7 +563,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		775AA4322A3A027100996384 /* Build configuration list for PBXProject "interface builder" */ = {
+		775AA4322A3A027100996384 /* Build configuration list for PBXProject "homework IB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				775AA4622A3A027200996384 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		775AA4642A3A027200996384 /* Build configuration list for PBXNativeTarget "interface builder" */ = {
+		775AA4642A3A027200996384 /* Build configuration list for PBXNativeTarget "homework IB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				775AA4652A3A027200996384 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		775AA4672A3A027200996384 /* Build configuration list for PBXNativeTarget "interface builderTests" */ = {
+		775AA4672A3A027200996384 /* Build configuration list for PBXNativeTarget "homework IBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				775AA4682A3A027200996384 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		775AA46A2A3A027200996384 /* Build configuration list for PBXNativeTarget "interface builderUITests" */ = {
+		775AA46A2A3A027200996384 /* Build configuration list for PBXNativeTarget "homework IBUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				775AA46B2A3A027200996384 /* Debug */,
